@@ -50,16 +50,27 @@ export const ModalNickname = styled.div`
 
 export const Mensaggeshow = styled.div` 
 display: flex;
-/* Hide scrollbar for Chrome, Safari and Opera */
+
 ::-webkit-scrollbar {
-  display: none;
+  width: 4px;
+  
 }
 
-/* Hide scrollbar for IE, Edge and Firefox */
+/* Track */
 
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #333;
+  width: 1px; 
+  height: 5px;
+}
 
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+ 
+ 
 overflow-y: scroll; 
 flex-direction: column-reverse; 
 height:90%;

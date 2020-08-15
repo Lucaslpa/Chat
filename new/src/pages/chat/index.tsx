@@ -84,6 +84,8 @@ function ChatPage() {
                    </Sendmensagge>
                </Principalchat>
 
+               
+
 
  </Container>                    
         
